@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*---BARRA DE NAVEGAÇÃO---*/
+
+.navegacao{
+    background-color: #a0fe9d;
+    height: 160px;
+}
+
+a{
+    border: 1px solid black;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 200px;
+    padding-right: 120px;
+    font-size: 20px;
+    
+}
+
+.barra-navegacao{
+    padding: 20px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.detalhes-navegacao{
+    border-right: none;
+    border-left: none;
+}
+
+.detalhes-navegacao1{
+    border-right: none;
+}
+
+nav{
+    background-color: #a0fe9d;
+}
+
+.login{
+    margin-top: 35px;
+    border: 1px black;
+    float: right;
+}
+
+/*--FORMULÁRIO--*/
+
+.formulario{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 15px;
+    width: 25%;
+}
+
+fieldset{
+    border-color: rgba(179, 179, 179, 0.788);
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.imgcenter{
+    text-align: center;
+}
+
+.inputbox{
+    position: relative;
+}
+
+.inputuser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(128, 126, 126);
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelinput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+    color: rgba(128, 128, 128, 0.653);
+}
+
+.inputuser:focus ~ .labelinput,
+.inputuser:valid ~ .labelinput{
+    top: -20px;
+    font-size: 12px;
+}
+
+#submit{
+    background-color: #a0fe9d;
+    width: 100%;
+    border: solid 1px;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#submit:hover{
+    color: #6afc65;
+}
+
+.rodapé{
+    text-align: center;
+    margin-top: 500px;
+    margin-bottom: 0px;
+}
